@@ -1,0 +1,27 @@
+// AF
+digraph {
+	node [shape=circle]
+	edge [color=black]
+	rankdir=LR size="8,5"
+	ponto [label=ponto shape=point]
+	s0 [label=s0 fillcolor=grey shape=circle style=filled]
+	ponto -> s0 [shape=circle]
+	s2 [label=s2 shape=doublecircle]
+	s0 [label=s0]
+	s0 [label=s0]
+	s0 -> s0 [label=1]
+	s0 [label=s0]
+	s1 [label=s1]
+	s0 -> s1 [label=0]
+	s1 [label=s1]
+	s1 [label=s1]
+	s1 -> s1 [label=0]
+	s1 [label=s1]
+	s2 [label=s2]
+	s1 -> s2 [label=1]
+	s2 [label=s2]
+	s1 [label=s1]
+	s2 -> s1 [label=0]
+	s0 [label=s0 fillcolor=white style=filled]
+	s0 [label=s0 fillcolor=grey style=filled]
+}
